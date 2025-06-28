@@ -1,11 +1,8 @@
-from typing import Dict, Any, List
+from typing import Dict, Any
 import pandas as pd
 import numpy as np
 from pathlib import Path
 from google.adk.tools import ToolContext
-import json
-import traceback
-import os
 
 from config import Config
 from ml_models import ModelManager
